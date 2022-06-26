@@ -1,0 +1,17 @@
+asgiref
+beautifulsoup4
+dj-database-url
+Django
+django-cors-headers
+djangorestframework
+example
+gunicorn
+Pillow
+psycopg2-binary
+python-decouple
+pytz
+six
+soupsieve
+sqlparse
+typing_extensions
+whitenoise
