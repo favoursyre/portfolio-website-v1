@@ -31,6 +31,7 @@ const App = ({ Component, pageProps, emotionCache = clientSideEmotionCache }) =>
                 }
             },
         }), 
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         [],
     );
 
