@@ -8,8 +8,7 @@
     "build": "next build",
     "deploy": "npm run build && rm -rf output static && next export -o output && mv output static",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "ng build"
+    "lint": "next lint"
   },
   "engines": {
     "node": "18.2.0",
