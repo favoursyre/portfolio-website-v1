@@ -2,6 +2,8 @@ const withImages = require('next-images');
 
 module.exports = withImages({
     images: {
+        loader: 'akamai',
+        path: '/',
         domains: ['127.0.0.1'],
     },
     async rewrites() {
