@@ -8,6 +8,9 @@ db.sqlite3
 media/
 image/
 node_modules/ 
+favicon.ico
+syre.jpg
+index.html
 venv/
 */migrations/*
 !*/migrations/__init__.py

@@ -9,7 +9,7 @@ export default class MyDocument extends Document {
         return (
             <Html lang='en'>
                 <Head>
-                    <link href='/images/favicon.ico' rel='shortcut icon' />
+                    <link href='https://icons.iconarchive.com/icons/chanut/role-playing/32/King-icon.png' rel='shortcut icon' />
                     <link  
                         href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'
                         rel='stylesheet'
