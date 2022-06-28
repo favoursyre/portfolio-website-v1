@@ -4,7 +4,9 @@ from .validators import validate_file_extension
 
 class Technology(models.Model):    
     name = models.CharField(max_length=100)
-    icon = models.FileField(upload_to='icons', validators=[validate_file_extension])
+    #icon = models.FileField(upload_to='icons', validators=[validate_file_extension])
+    #icon = models.CharField(max_length=100)
+    icon = models.FileField(upload_to='icons')
 
     class Meta:
         verbose_name = 'Technology'

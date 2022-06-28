@@ -11,6 +11,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationIcon from '@mui/icons-material/LocationOn';
 import PhoneIcon from '@mui/icons-material/CallSharp';
 import { useTheme } from '@mui/material/styles';
+import { Map, Marker} from 'pigeon-maps';
 
 const Contact = () => {
     const theme = useTheme();
@@ -34,13 +35,15 @@ const Contact = () => {
         fetchContact();
     }, []);
 
-    const Map = React.useMemo(() => dynamic(
-        () => import('./Map'),
-        { 
-          loading: () => <p>A map is loading...</p>,
-          ssr: false
-        }
-    ), []);
+    //const coordinates = [item.latitude, item.longitude];
+    const coordinates = [6.458366, 7.546389];
+    // const Map = React.useMemo(() => dynamic(
+    //     () => import('./Map'),
+    //     { 
+    //       loading: () => <p>A map is loading...</p>,
+    //       ssr: false
+    //     }
+    // ), []);
 
     return (
         <div id='contact'>
@@ -81,10 +84,10 @@ const Contact = () => {
                     {contact.map((item, i) => (
                         <Box key={i}>
                             <Box marginBottom={4}>
-                                <Map 
-                                    coordinates={[item.latitude, item.longitude]} 
-                                    zoom={13} 
-                                />
+                                <Map height={400} defaultCenter={coordinates} defaultZoom={13}>
+                                    <Marker width={50} anchor={coordinates} />
+                                    console.log(item.latitude)
+                                </Map>
                             </Box>
                             <Box
                                 display='flex'

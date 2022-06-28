@@ -10,6 +10,9 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useTheme } from '@mui/material/styles';
 
+axios.defaults.xsrfCookieName = 'csrftoken';
+axios.defaults.xsrfHeaderName = 'X-CSRFToken';
+
 const Technologies = () => {
     const theme = useTheme();
 
@@ -33,6 +36,12 @@ const Technologies = () => {
     React.useEffect(() => {
         fetchTechnologies();
     }, []);
+
+    technologies.map((item, i) => (
+        console.log("technologies"),
+        console.log(item.icon),
+        console.log(item.name)
+    ))
 
     return (
         <div id='technologies'>
@@ -105,7 +114,15 @@ const Technologies = () => {
                                                 variant='rounded'
                                                 borderRadius={2}
                                             >
-                                                <Image src={item.icon} alt='tech_icon' height={50} width={50} /> 
+                                                <picture>
+                                                    <img src={item.icon} alt={item.name} 
+                                                        style={{
+                                                            height: 50,
+                                                            width: 50
+                                                        }}
+                                                        
+                                                    /> 
+                                                </picture>
                                             </Box>
                                         </Box>
                                         <Typography 
