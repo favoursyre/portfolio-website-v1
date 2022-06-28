@@ -86,7 +86,6 @@ const Contact = () => {
                             <Box marginBottom={4}>
                                 <Map height={400} defaultCenter={coordinates} defaultZoom={13}>
                                     <Marker width={50} anchor={coordinates} />
-                                    console.log(item.latitude)
                                 </Map>
                             </Box>
                             <Box
