@@ -1,27 +1,33 @@
 # Portfolio Website
 
-This is a portfolio website built using **Django**, **Next.js**, and **Material UI** that uses a **PostgreSQL** database to store data.
-
-### Dark mode:
-
-![plot](https://github.com/BobsProgrammingAcademy/Portfolio-Website/blob/main/frontend/public/images/dark_theme.png?raw=true)
-
-### Light mode:
-
-![plot](https://github.com/BobsProgrammingAcademy/Portfolio-Website/blob/main/frontend/public/images/light_theme.png?raw=true)
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Languages](#languages)
+4. [Technologies](#technologies)
+5. [Installations](#installations)
+6. [Usage](#usage)
 
 
-## Prerequisites
+## Overview
+This is my portfolio website
 
-Install the following prerequisites:
+## Features
+* Responsive website
+* It has theme change
 
-1. [Python](https://www.python.org/downloads/)
-2. [Node.js](https://nodejs.org/en/)
-3. [PostgreSQL](https://www.postgresql.org/download/)
-4. [Visual Studio Code](https://code.visualstudio.com/download)
+## Languages
+* HTML/CSS
+* Javascript
+* Python
+* SQL
 
+## Technologies
+* Next.js
+* Django
+* Postgresql
 
-## Installation
+## Installations
 
 ### Backend
 
@@ -30,12 +36,12 @@ Install the following prerequisites:
 From the **root** directory run:
 
 ```bash
-cd backend && python -m venv venv
+python -m venv venv
 ```
 
 #### 2. Activate the virtual environment
 
-From the **backend** directory run:
+From the **root** directory run:
 
 On macOS:
 
@@ -51,7 +57,7 @@ venv\scripts\activate
 
 #### 3. Install required backend dependencies
 
-From the **backend** directory run:
+From the **root** directory run:
 
 ```bash
 pip install -r requirements.txt
@@ -91,7 +97,7 @@ To quit **psql**, run:
 
 #### 5. Set up backend environment variables
 
-From the **backend** directory run:
+From the **root** directory run:
 
 ```bash
 touch config/.env
@@ -113,7 +119,7 @@ FRONTEND_URL=http://localhost:3000
 
 #### 6. Run migrations
 
-From the **backend** directory run:
+From the **root** directory run:
 
 ```bash
 python manage.py makemigrations
@@ -124,7 +130,7 @@ python manage.py migrate
 
 #### 7. Create an admin user to access the Django Admin interface
 
-From the **backend** directory run:
+From the **root** directory run:
 
 ```bash
 python manage.py createsuperuser
@@ -139,12 +145,12 @@ When prompted, enter a username, email, and password.
 From the **root** directory run:
 
 ```bash
-cd frontend && npm install
+npm install
 ```
 
 #### 2. Set up frontend environment variables
 
-From the **frontend** directory run:
+From the **root** directory run:
 
 ```bash
 touch .env.development && touch .env.production
@@ -159,13 +165,13 @@ BACKEND_HOST=127.0.0.1
 BACKEND_URL=http://127.0.0.1:8000
 ```
 
-## Run the application
+## Usage
 
 To run the application, you need to have both the backend and the frontend up and running.
 
 #### 1. Run backend
 
-From the **backend** directory run:
+From the **root** directory run:
 
 ```bash
 python manage.py runserver
@@ -173,7 +179,7 @@ python manage.py runserver
 
 #### 2. Run frontend
 
-From the **frontend** directory run:
+From the **root** directory run:
 
 ```bash
 npm run dev
