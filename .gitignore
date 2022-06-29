@@ -7,6 +7,11 @@
 db.sqlite3
 media/
 image/
+images/
+static/
+staticfiles/
+.next/
+_next/
 node_modules/ 
 favicon.ico
 syre.jpg
