@@ -6,7 +6,7 @@
 3. [Languages](#languages)
 4. [Technologies](#technologies)
 5. [Installations](#installations)
-6. [Usage](#usage)
+6. [Run](#run)
 
 
 ## Overview
@@ -165,7 +165,7 @@ BACKEND_HOST=127.0.0.1
 BACKEND_URL=http://127.0.0.1:8000
 ```
 
-## Usage
+## Run
 
 To run the application, you need to have both the backend and the frontend up and running.
 
