@@ -56,7 +56,7 @@ const HeroButtons = () => {
                         variant='outlined'
                         color='primary'
                         size='large'
-                        href='https://drive.google.com/uc?export=download&id=1lq1z-7gS2dGlXsMk7on_8FBdus34YrZo'
+                        href='https://drive.google.com/uc?export=download&id=1kMnjOKxsc6-zvSCC1yzDq7u8TChkVJnN'
                         endIcon={<FileDownloadIcon />}
                         fullWidth={isMd ? false : true}
                         disableElevation={true}

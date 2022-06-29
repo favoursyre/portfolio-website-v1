@@ -36,7 +36,7 @@ const Contact = () => {
     }, []);
 
     //const coordinates = [item.latitude, item.longitude];
-    const coordinates = [6.458366, 7.546389];
+    const coordinates = [6.8645, 7.4083];
     // const Map = React.useMemo(() => dynamic(
     //     () => import('./Map'),
     //     { 

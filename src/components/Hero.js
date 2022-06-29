@@ -125,7 +125,7 @@ const Hero = () => {
                                         >
                                             <Box 
                                                 component={LazyLoadImage}
-                                                src='https://i.ibb.co/hFYHrzR/syre.jpg'
+                                                src='https://drive.google.com/uc?export=download&id=1tn96uibv7TyOjrvZk96W6Yu5h7FSr-iZ'
                                                 alt='Background Image'
                                                 effect='blur'
                                                 height={{ xs: 'auto', md: 1 }}

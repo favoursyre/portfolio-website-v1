@@ -132,6 +132,7 @@ const Projects = () => {
                                             component={LazyLoadImage}
                                             effect='blur'
                                             src={item.image}
+                                            alt={item.name}
                                             height={{ xs: 240, sm: 340, md: 280 }}
                                             width='100%'
                                             sx={{ objectFit: 'cover' }}
