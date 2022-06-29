@@ -24,6 +24,7 @@ This is my portfolio website
 
 ## Technologies
 * Next.js
+* Material UI
 * Django
 * Postgresql
 
