@@ -9,8 +9,8 @@ class Tag(models.Model):
     
 
 class Project(models.Model):
-    name = models.CharField(max_length=100)
-    description = models.CharField(max_length=200)
+    name = models.CharField(max_length=250)
+    description = models.CharField(max_length=250)
     link = models.CharField(max_length=250)
     #image = models.ImageField(upload_to='images')
     image = models.CharField(max_length=250)

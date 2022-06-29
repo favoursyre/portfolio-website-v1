@@ -3,7 +3,7 @@ from .models import Project, Tag
 
 
 class ProjectAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name')
+    list_display = ('id', 'name', 'image')
     list_display_links = ('id', 'name')
     search_fields = ('name', 'tags')
     list_per_page = 20
