@@ -17,7 +17,6 @@ This is my portfolio website
 * It has theme change
 
 ## Languages
-* HTML/CSS
 * Javascript
 * Python
 * SQL
