@@ -1,8 +1,7 @@
-# Portfolio Website
+# Portfolio Website V 1.0
 
 ![content](https://drive.google.com/uc?export=download&id=1EhgVKfkQ-AM01TD-VqnmQVhZ_YgAYFsB)
 
-[Visit site](favourndubuisi.herokuapp.com)
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -200,3 +199,4 @@ Add data through Django Admin.
 
 Go to http://127.0.0.1:8000/admin to access the Django Admin interface and sign in using the admin credentials.
 Note: When editing technologies and projects, put the image/icon url in the box, possibly the file's google drive direct download link
+](https://github.com/thehashton/cb-data-dashboard.git)https://github.com/thehashton/cb-data-dashboard.git
